@@ -12,7 +12,7 @@ export function Button({ className, isLoading, disabled, children, ...props}: Bu
       {...props}
       disabled={disabled || isLoading}
       className={cn(
-        'bg-cyan-500 hover:bg-cyan-400 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed px-6 h-12 rounded-2xl font-medium text-white transition-all active:bg-cyan-600 flex items-center justify-center',
+        'bg-cyan-400 hover:bg-cyan-300 disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed px-6 h-12 rounded-2xl font-medium text-white transition-all active:bg-cyan-500 flex items-center justify-center',
         className
       )}
     >
