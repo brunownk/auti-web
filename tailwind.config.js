@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        movement: {
+          '0%': { backgroundPosition: '0px 0px' },
+          '100%': { backgroundPosition: '560px 0px' },
+        } 
+      },
+      animation: {
+        'infinite': 'movement 60s linear infinite'
+      },
       colors: {
         gray: {
           50: '#F8F9FA',
