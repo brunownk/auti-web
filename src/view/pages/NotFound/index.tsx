@@ -1,10 +1,10 @@
 import notFoundIlustrationImg from '../../../assets/images/not-found.png'
 import { Button } from '../../components/Button'
 
-import { useNotFound } from "./useNotFound";
+import { useNotFoundController } from "./useNotFoundController";
 
 export function NotFound () {
-  const { handleButtonClick } = useNotFound();
+  const { handleButtonClick } = useNotFoundController();
 
   return (
     <div className="w-full h-full flex items-center justify-center bg-pink-400 gap-44">

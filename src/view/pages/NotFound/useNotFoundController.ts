@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../../app/hooks/useAuth";
 
-export function useNotFound() {
+export function useNotFoundController() {
   const { signedIn } = useAuth();
   const navigate = useNavigate();
 
