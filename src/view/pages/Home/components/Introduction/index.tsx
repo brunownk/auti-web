@@ -10,7 +10,7 @@ export function Introduction() {
           </h1>
 
           <p className="lg:text-lg text-gray-700">
-            A AUTI busca auxiliar crianças autistas no processo de desenvolvimento cognitivo com atividades gamificadas adaptadas às suas necessidades específicas. Uma solução simples e divertida para todos.
+            A AUTI busca auxiliar crianças com aspecto autista no processo de desenvolvimento cognitivo com atividades gamificadas adaptadas às suas necessidades específicas. Uma solução simples e divertida para todos.
           </p>
         </div>
      

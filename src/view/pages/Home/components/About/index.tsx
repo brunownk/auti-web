@@ -16,15 +16,15 @@ export function About() {
           </h1>
 
           <p>
-            O autismo é um transtorno que impacta a comunicação, interação social e comportamento das pessoas. Crianças autistas frequentemente enfrentam desafios na linguagem, exibem comportamentos repetitivos e têm dificuldades em se relacionar. Adicionalmente, problemas sensoriais e obstáculos na aprendizagem podem surgir.
+            O transtorno do espectro autista (TEA) é um distúrbio do neurodesenvolvimento caracterizado por desenvolvimento atípico, manifestações comportamentais, déficits na comunicação e na interação social, padrões de comportamentos repetitivos e estereotipados, podendo apresentar um repertório restrito de interesses e atividades.
           </p>
 
           <p>
-            A identificação precoce é crucial, pois possibilita o acesso a intervenções adequadas, que promovem o desenvolvimento das habilidades sociais e de comunicação da criança. Pais e cuidadores devem estar atentos aos primeiros sinais, como atrasos na linguagem e dificuldades no contato visual.
+            Sinais de alerta no neurodesenvolvimento da criança podem ser percebidos nos primeiros meses de vida, sendo o diagnóstico estabelecido por volta dos 2 a 3 anos de idade. A prevalência é maior no sexo masculino.
           </p>
 
           <p>
-            No entanto, o autismo ainda é cercado por desinformação, resultando em preconceito e estigmatização. Portanto, é imperativo promover a conscientização e a inclusão para garantir oportunidades iguais de aprendizado e desenvolvimento para crianças autistas.
+            A identificação de atrasos no desenvolvimento, o diagnóstico oportuno do TEA e encaminhamento para intervenções comportamentais e apoio educacional na idade mais precoce possível, pode levar a melhores resultados a longo prazo, considerando a neuroplasticidade cerebral.
           </p>
         </div>
       </div>
@@ -39,15 +39,15 @@ export function About() {
           </h1>
 
           <p>
-            O AUTI é um projeto destinado a aprimorar o tratamento do autismo. Nossa missão é oferecer uma variedade de cenários gamificados projetados para aprimorar aspectos cognitivos, notadamente, a comunicação, concentração e memória.
+            O AUTI é um projeto destinado a auxiliar o tratamento do TEA. Nossa missão é oferecer uma variedade de cenários gamificados projetados para aprimorar aspectos cognitivos, notadamente, a comunicação, concentração e memória.
           </p>
 
           <p>
-            Buscamos, sobretudo, proporcionar às crianças autistas uma forma cativante de enfrentar desafios e lidar com atividades que possam não ser naturalmente atrativas, graças a jogos customizados para atender às suas necessidades específicas.
+            Buscamos, sobretudo, proporcionar às crianças com aspecto autista uma forma cativante de enfrentar desafios e lidar com atividades que possam não ser naturalmente atrativas, graças a jogos customizados para atender às suas necessidades específicas.
           </p>
 
           <p>
-            Nosso objetivo principal é estabelecer o AUTI como uma ferramenta valiosa no tratamento do autismo, permitindo que as crianças autistas desfrutem de uma experiência divertida ao mesmo tempo em que estimulam seu desenvolvimento cognitivo.
+            Nosso objetivo principal é estabelecer o AUTI como uma ferramenta valiosa no tratamento do autismo, permitindo que as crianças desfrutem de uma experiência divertida ao mesmo tempo em que estimulam seu desenvolvimento cognitivo.
           </p>
         </div>
 
