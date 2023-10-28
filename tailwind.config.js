@@ -1,4 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from 'tailwindcss/plugin'
+
+const rotateY = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.rotate-y-0': {
+      transform: 'rotateY(0deg)',
+    },
+    '.rotate-y-90': {
+      transform: 'rotateY(90deg)',
+    },
+  })
+})
+
 export default {
   content: [
     "./index.html",
@@ -187,6 +200,6 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [rotateY],
 }
 

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { AuthGuard } from './AuthGuard';
-import { Dashboard, Home, Login, Register, NotFound } from '../view/pages';
+import { Dashboard, Home, Login, Register, NotFound, Memory } from '../view/pages';
 import { AuthLayout, PrivateLayout } from '../view/layouts';
 
 export function Router() {
@@ -20,6 +20,8 @@ export function Router() {
         <Route element={<AuthGuard isPrivate={true} />}>
           <Route element={<PrivateLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/game/memory" element={<Memory />} />
+
           </Route>
         </Route>
 
