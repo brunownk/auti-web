@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { AuthGuard } from './AuthGuard';
 import { Dashboard, Home, Login, Register, NotFound } from '../view/pages';
-import { AuthLayout } from '../view/layouts/AuthLayout';
+import { AuthLayout, PrivateLayout } from '../view/layouts';
 
 export function Router() {
   return (
@@ -18,7 +18,9 @@ export function Router() {
         </Route>
 
         <Route element={<AuthGuard isPrivate={true} />}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route element={<PrivateLayout />}>
+            <Route path="/dashboard" element={<Dashboard />} />
+          </Route>
         </Route>
 
         <Route path="*" element={<NotFound />} />
