@@ -4,11 +4,14 @@ import projectllustrationImg from '../../../../../assets/images/ilustra-04.png'
 export function About() {
   return (
     <div className='w-full px-8 py-16 grid place-items-center gap-40 bg-gradient-to-b from-cyan-300 via-gray-50 to-gray-50'>
-      <div className='w-full max-w-7xl flex flex-col-reverse gap-12 lg:flex-row items-center justify-around'>
+      <div
+        id="about-autism"
+        className='w-full max-w-7xl flex flex-col-reverse gap-12 lg:flex-row items-center justify-around'
+      >
         <img src={earthIllustrationImg} className="h-[180px] lg:h-[280px] rounded-2xl" />
 
         <div className="max-w-lg flex flex-col gap-6 text-base text-gray-700">
-          <h1 id="about-autism" className="text-4xl text-white font-bold">
+          <h1 className="text-4xl text-white font-bold">
             Entendendo o autismo
           </h1>
 
@@ -26,9 +29,12 @@ export function About() {
         </div>
       </div>
 
-      <div className='w-full max-w-7xl flex flex-col lg:flex-row gap-12 items-center justify-around'>
+      <div 
+        id="about-project"
+        className='w-full max-w-7xl flex flex-col lg:flex-row gap-12 items-center justify-around'
+      >
         <div className="max-w-lg flex flex-col gap-6 text-base text-gray-700">
-          <h1 id="about-project" className="text-4xl text-cyan-500 font-bold">
+          <h1 className="text-4xl text-cyan-500 font-bold">
             Sobre o projeto
           </h1>
 

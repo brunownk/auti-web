@@ -2,7 +2,7 @@ import ilustrationImg from "../../../../../assets/images/ilustra-01.png"
 
 export function Introduction() {
   return (
-    <div className='w-full px-6 pt-16 grid place-items-center'>
+    <div id="introduction" className='w-full px-6 pt-16 grid place-items-center'>
       <div className='w-full max-w-7xl h-full flex flex-col items-center justify-around lg:flex-row gap-12'>
         <div className="max-w-lg flex flex-col gap-6">
           <h1 className="text-3xl lg:text-4xl md:text-left text-cyan-500 font-bold">

@@ -9,9 +9,13 @@ import evelinPhoto from '../../../../../assets/images/evelin.png';
 
 import { TeamCard } from '../../../../components/TeamCard';
 
+
 export function Team() {
   return (
-    <div className='w-full px-6 pt-12 pb-20 bg-gradient-to-b from-gray-50 via-cyan-200 to-gray-50'>
+    <div 
+      id="team"
+      className='w-full px-6 pt-12 pb-20 bg-gradient-to-b from-gray-50 via-cyan-200 to-gray-50'
+    >
       <div className='max-w-7xl h-full flex items-center m-[auto]'>
         <Swiper
           spaceBetween={48}
@@ -35,7 +39,7 @@ export function Team() {
             slot="container-start"
             className="text-4xl text-cyan-500 font-bold text-center mb-12"
           >
-            Nosso time
+            Nossa equipe
           </h1>
           
           <SwiperSlide>

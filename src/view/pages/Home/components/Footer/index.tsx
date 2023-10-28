@@ -1,57 +1,71 @@
-import { Link } from "react-router-dom";
 import { InstagramLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
 
 import logoImg from "../../../../../assets/images/logo.png"
 import { PageTab } from "../../../../components/PageTab";
+import { useHomeController } from "../../useHomeController";
 
 export function Footer() {
+  const { scrollTo } = useHomeController();
+
   return (
-    <footer className="bg-gradient-to-r from-cyan-100 to-yellow-100 rounded-lg shadow">
+    <footer className="bg-gradient-to-r from-cyan-100 to-green-100 rounded-lg shadow">
         <div className="w-full max-w-screen-xl mx-auto px-8 py-4">
           <div className="flex flex-col gap-4 md:flex-row md:gap-0 items-center justify-between">
-            <Link to="/" className="flex items-center">
+            <button onClick={() => scrollTo('introduction')} className="flex items-center">
               <img
                 src={logoImg}
                 className="h-12 mr-3"
                 alt="Auti Logo"
               />
-            </Link>
+            </button>
 
 
             <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
-                <PageTab to="#" className="mr-4 md:mr-6 ">
+                <PageTab
+                  onClick={() => scrollTo('about-autism')}
+                  className="mr-4 md:mr-6"
+                >
                   Sobre o autismo
                 </PageTab>
               </li>
               <li>
-                <PageTab to="#" className="mr-4 md:mr-6 ">
+                <PageTab
+                  onClick={() => scrollTo('about-project')}
+                  className="mr-4 md:mr-6"
+                >
                   Sobre o projeto
                 </PageTab>
               </li>
               <li>
-                <PageTab to="#" className="mr-4 md:mr-6 ">
+                <PageTab
+                  onClick={() => scrollTo('team')}
+                  className="mr-4 md:mr-6 "
+                >
                   Nossa equipe
-                </PageTab>
-              </li>
-              <li>
-                <PageTab to="#" className="mr-4 md:mr-6 ">
-                  Contato
                 </PageTab>
               </li>
             </ul>
 
             <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
-                <PageTab to="#" className="mr-4 ">
+                <a
+                  href='https://www.instagram.com/projetoauti/'
+                  target="_blank"
+                  className="mr-4 inline-block p-2 border-b-2 border-transparent rounded-t-lg text-gray-800 hover:border-cyan-400 dark:hover:text-cyan-400 transition-all text-sm md:text-base"
+                >
                   <InstagramLogoIcon className="h-5 w-5" />
-                </PageTab>
+                </a>
               </li>
 
               <li>
-                <PageTab to="#" className="mr-4">
+                <a
+                  href='https://github.com/brunownk/auti-web'
+                  target="_blank"
+                  className="mr-4 inline-block p-2 border-b-2 border-transparent rounded-t-lg text-gray-800 hover:border-cyan-400 dark:hover:text-cyan-400 transition-all text-sm md:text-base"
+                >
                   <GitHubLogoIcon className="h-5 w-5" />
-                </PageTab>
+                </a>
               </li>
             </ul>
           </div>

@@ -9,7 +9,7 @@ import { About, Footer, Introduction, Team } from './components';
 import { useHomeController } from "./useHomeController";
 
 export function Home() {
-  const { navigate } = useHomeController();
+  const { navigate, scrollTo } = useHomeController();
 
   return (
     <div className="h-full w-full flex flex-col">
@@ -21,14 +21,21 @@ export function Home() {
         />
 
         <nav className="hidden items-center gap-6 lg:flex">
-          <PageTab to="/">Entendendo o autismo</PageTab>
-          <PageTab to="/">Sobre o projeto</PageTab>
-          <PageTab to="/">Nossa equipe</PageTab>
-          <PageTab to="/">Contato</PageTab>
+          <PageTab onClick={() => scrollTo('about-autism')}>
+            Entendendo o autismo
+          </PageTab>
+
+          <PageTab onClick={() => scrollTo('about-project')}>
+            Sobre o projeto
+          </PageTab>
+
+          <PageTab onClick={() => scrollTo('team')}>
+            Nossa equipe
+          </PageTab>
         </nav>
 
         <nav className="flex items-center gap-2 lg:gap-10">
-          <PageTab to="/login">Entrar</PageTab>
+          <PageTab onClick={() => navigate('/login')}>Entrar</PageTab>
 
           <Button 
             onClick={() => navigate('/register')}
