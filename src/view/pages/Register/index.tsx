@@ -35,7 +35,6 @@ export function Register() {
           {...register('name')}
         />
         <Input
-          type="email"
           placeholder="E-mail"
           error={errors.email?.message}
           {...register('email')}

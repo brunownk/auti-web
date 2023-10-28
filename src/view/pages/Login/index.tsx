@@ -34,7 +34,6 @@ export function Login() {
         className="mt-[60px] flex flex-col gap-4"
       >
         <Input
-          type="email"
           placeholder="E-mail"
           error={errors.email?.message}
           {...register('email')}

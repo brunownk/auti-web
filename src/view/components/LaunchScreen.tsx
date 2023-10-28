@@ -21,7 +21,7 @@ export function LaunchScreen({ isLoading }: LaunchScreenProps) {
       <div className="bg-cyan-100 fixed top-0 left-0 w-full h-full grid place-items-center">
         <div className="flex flex-col items-center gap-3">
           <img src={logoImg} alt="Auti" className="h-20" />
-          <Spinner className="text-cyan-100 fill-cyan-400" />
+          <Spinner className="text-cyan-200 fill-cyan-400" />
         </div>
       </div>
     </Transition>
