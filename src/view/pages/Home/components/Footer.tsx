@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { InstagramLogoIcon } from '@radix-ui/react-icons'
+import { InstagramLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
 
 import logoImg from "../../../../assets/images/logo.png"
 import { PageTab } from "../../../components/PageTab";
@@ -18,32 +18,42 @@ export function Footer() {
             </Link>
 
 
-              <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                  <PageTab to="#" className="mr-4 md:mr-6 ">
-                    Sobre o autismo
-                  </PageTab>
-                </li>
-                <li>
-                  <PageTab to="#" className="mr-4 md:mr-6 ">
-                    Sobre o projeto
-                  </PageTab>
-                </li>
-                <li>
-                  <PageTab to="#" className="mr-4 md:mr-6 ">
-                    Nossa equipe
-                  </PageTab>
-                </li>
-                <li>
-                  <PageTab to="#" className="mr-4 md:mr-6 ">
-                    Contato
-                  </PageTab>
-                </li>
-              </ul>
+            <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                <PageTab to="#" className="mr-4 md:mr-6 ">
+                  Sobre o autismo
+                </PageTab>
+              </li>
+              <li>
+                <PageTab to="#" className="mr-4 md:mr-6 ">
+                  Sobre o projeto
+                </PageTab>
+              </li>
+              <li>
+                <PageTab to="#" className="mr-4 md:mr-6 ">
+                  Nossa equipe
+                </PageTab>
+              </li>
+              <li>
+                <PageTab to="#" className="mr-4 md:mr-6 ">
+                  Contato
+                </PageTab>
+              </li>
+            </ul>
 
-              <PageTab to="#" className="mr-4 md:mr-6 ">
-                <InstagramLogoIcon className="h-5 w-5" />
-              </PageTab>
+            <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                <PageTab to="#" className="mr-4 ">
+                  <InstagramLogoIcon className="h-5 w-5" />
+                </PageTab>
+              </li>
+
+              <li>
+                <PageTab to="#" className="mr-4">
+                  <GitHubLogoIcon className="h-5 w-5" />
+                </PageTab>
+              </li>
+            </ul>
           </div>
 
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-600 lg:my-8" />

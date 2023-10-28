@@ -8,6 +8,7 @@ import { Waves } from '../../components/Waves';
 import { About } from './components/About';
 import { Footer } from './components/Footer';
 import { Introduction } from './components/Introduction';
+import { Team } from './components/Team';
 
 export function Home() {
   const { navigate } = useHomeController();
@@ -46,10 +47,7 @@ export function Home() {
 
         <About />
 
-        <div className='w-full px-4 py-16 grid place-items-center'>
-          <div className='w-full max-w-7xl h-full flex items-center justify-between'>
-          </div>
-        </div>
+        <Team />
 
         <Footer />
       </main>
