@@ -25,6 +25,11 @@
   }
 }
 
+div {
+  z-index: 0;
+  position: relative;
+} 
+
 .x1 {
   -webkit-animation: animateCloud 35s linear infinite;
   -moz-animation: animateCloud 35s linear infinite;
@@ -33,6 +38,9 @@
   -webkit-transform: scale(0.65);
   -moz-transform: scale(0.65);
   transform: scale(0.65);
+
+  z-index: 0;
+  position: relative;
 }
 
 .x2 {
@@ -43,6 +51,9 @@
   -webkit-transform: scale(0.3);
   -moz-transform: scale(0.3);
   transform: scale(0.3);
+
+  z-index: 0;
+  position: relative;
 }
 
 .x3 {
@@ -53,6 +64,9 @@
   -webkit-transform: scale(0.5);
   -moz-transform: scale(0.5);
   transform: scale(0.5);
+
+  z-index: 0;
+  position: relative;
 }
 
 .x4 {
@@ -63,6 +77,9 @@
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
   transform: scale(0.4);
+
+  z-index: 0;
+  position: relative;
 }
 
 .x5 {
@@ -73,6 +90,9 @@
   -webkit-transform: scale(0.55);
   -moz-transform: scale(0.55);
   transform: scale(0.55);
+
+  z-index: 0;
+  position: relative;
 }
 
 .cloud {
@@ -94,15 +114,17 @@
   box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 
   height: 120px;
-  position: relative;
   width: 350px;
+
+  z-index: 0;
+  position: relative;
 }
 
 .cloud:after, .cloud:before {
-    background: #fff;
+  background: #fff;
   content: '';
   position: absolute;
-  z-indeX: -1;
+  z-index: -0;
 }
 
 .cloud:after {
