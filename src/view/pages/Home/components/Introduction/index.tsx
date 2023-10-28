@@ -1,4 +1,4 @@
-import ilustrationImg from "../../../../assets/images/ilustra-01.png" 
+import ilustrationImg from "../../../../../assets/images/ilustra-01.png" 
 
 export function Introduction() {
   return (

@@ -1,5 +1,5 @@
-import earthIllustrationImg from '../../../../assets/images/ilustra-03.png'
-import projectllustrationImg from '../../../../assets/images/ilustra-04.png'
+import earthIllustrationImg from '../../../../../assets/images/ilustra-03.png'
+import projectllustrationImg from '../../../../../assets/images/ilustra-04.png'
 
 export function About() {
   return (

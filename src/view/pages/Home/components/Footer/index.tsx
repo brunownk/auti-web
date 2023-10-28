@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { InstagramLogoIcon, GitHubLogoIcon } from '@radix-ui/react-icons'
 
-import logoImg from "../../../../assets/images/logo.png"
-import { PageTab } from "../../../components/PageTab";
+import logoImg from "../../../../../assets/images/logo.png"
+import { PageTab } from "../../../../components/PageTab";
 
 export function Footer() {
   return (
