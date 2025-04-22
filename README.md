@@ -1,5 +1,7 @@
 # AUTI Web
 
+![Auti Header](https://i.ibb.co/ykBzyDs/header.jpg)
+
 Frontend interface for the AUTI project, developed with React, TypeScript, and Vite to provide an accessible and engaging learning experience for autistic children.
 
 ## 🏆 Third Place at FIAP NEXT Festival
